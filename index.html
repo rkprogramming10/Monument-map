@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monument Map</title>
+
+    <!--Jquery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+        </script>
+    <!---Bootstrap--->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"
+        integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous">
+        </script>
+
+    <!--Mapbox Api Css and JS--->
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js">
+    </script>
+    <!----Mapbox Geaocoder CDN----->
+    <link rel="stylesheet"
+        href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.css"
+        type="text/css">
+
+</head>
+
+<body>
+<!----------------------------------------------------------------------------->
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12 text-center p-5">
+            <h1>Monument Map</h1>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-12 text-center p-5">
+            <div id="map"></div>
+        </div>
+    </div>
+</div>
+
+<div>
+    <img class="image-marker" id="amber" src="./assets/amerfort.png">
+    <img class="image-marker" id="gateway" src="./assets/gateway.png">
+    <img class="image-marker" id="gate" src="./assets/indiagate.png">
+    <img class="image-marker" id="lotus" src="./assets/lotus-tempel.png">
+    <img class="image-marker" id="victoria" src="./assets/victoria.png">
+
+</div>
+
+</body>
+
+</html>
